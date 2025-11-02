@@ -7,10 +7,10 @@ var otpRoutes1 = require("./routes/otpRoutes1");
 var axios = require("axios");
 var encodeURIComponent = require("querystring").escape;
 
-var rawPassword = "Harshit@123";
+var rawPassword = "Aanvik@123";
 var encodedPassword = encodeURIComponent(rawPassword);
 
-var uri = `mongodb+srv://harshit:${encodedPassword}@cluster0.csw5jmw.mongodb.net/split?retryWrites=true&w=majority&appName=Cluster0`;
+var uri = `mongodb+srv://aanvik:${encodedPassword}@cluster0.csw5jmw.mongodb.net/split?retryWrites=true&w=majority&appName=Cluster0`;
 var dbName = "split";
 var db;
 var {

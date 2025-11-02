@@ -1,10 +1,10 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const { escape: encodeURIComponent } = require('querystring');
 
-const rawPassword = 'Harshit@123';
+const rawPassword = 'Aanvik@123';
 const encodedPassword = encodeURIComponent(rawPassword);
 
-const uri = `mongodb+srv://harshit:${encodedPassword}@cluster0.csw5jmw.mongodb.net/split?retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `mongodb+srv://aanvik:${encodedPassword}@cluster0.csw5jmw.mongodb.net/split?retryWrites=true&w=majority&appName=Cluster0`;
 const dbName = 'split';
 async function fetchpeople() {
   let client;
