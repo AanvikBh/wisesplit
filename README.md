@@ -1,6 +1,6 @@
 # wisesplit
 
-
+A MERN-based app similar to Splitwise in which you can login using OTP and import contacts through Google contacts and make groups and settle dues between groups
 
 ## For Backend
 
